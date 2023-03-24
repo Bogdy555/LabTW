@@ -1,0 +1,79 @@
+body
+{
+	background-color: rgb(0, 0, 0);
+}
+
+header
+{
+	margin: 1vw;
+	border: 10px;
+	padding: 20px;
+
+	background-color: rgb(20, 20, 20);
+	color: rgb(255, 255, 255);
+
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+main
+{
+	margin: 1vw;
+	border: 10px;
+	padding: 20px;
+
+	background-color: rgb(20, 20, 20);
+	color: rgb(255, 255, 255);
+
+	line-height: 110%;
+}
+
+footer
+{
+	margin: 1vw;
+	border: 10px;
+	padding: 20px;
+
+	background-color: rgb(20, 20, 20);
+	color: rgb(255, 255, 255);
+}
+
+a:link
+{
+	color: rgb(80, 140, 100);
+}
+
+a:link:hover
+{
+	color: rgb(60, 120, 80);
+}
+
+nav > a:link
+{
+	color: rgb(100, 80, 140);
+}
+
+nav > a:link:hover
+{
+	color: rgb(80, 60, 120);
+}
+
+header h1
+{
+	color: rgb(80, 140, 100);
+}
+
+main h1, main h2, main h3, main h4, main h5, main h6
+{
+	color: rgb(80, 140, 100);
+}
+
+main ol
+{
+	line-height: 120%;
+}
+
+.iframe_div
+{
+	text-align: center;
+}
