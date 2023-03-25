@@ -1,0 +1,90 @@
+body
+{
+	min-height: 100vh;
+	margin: 0;
+}
+
+main > nav, main > aside
+{
+	background: #FAF4B7;
+}
+
+header
+{
+	background: #CDF0EA;
+}
+
+article
+{
+	background: #F9F9F9;
+}
+
+footer
+{
+	background: #F6C6EA;
+}
+
+header, footer, article, nav, aside
+{
+	padding: 1em;
+}
+
+header
+{
+	position: absolute;
+	left: 0px;
+	top: 0vh;
+
+	width: 100vw;
+	height: 10vh;
+}
+
+main
+{
+	position: absolute;
+	left: 0px;
+	top: 10vh;
+
+	width: 100vw;
+	height: 80vh;
+}
+
+footer
+{
+	position: absolute;
+	left: 0px;
+	top: 90vh;
+
+	width: 100vw;
+	height: 10vh;
+}
+
+nav
+{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+
+	width: 10%;
+	height: 100%;
+}
+
+article
+{
+	position: absolute;
+	left: 10%;
+	top: 0%;
+
+	width: 80%;
+	height: 100%;
+}
+
+aside
+{
+	position: absolute;
+	left: 90%;
+	top: 0%;
+
+	width: 10%;
+	height: 100%;
+}
